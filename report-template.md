@@ -4,20 +4,9 @@
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
-  The purpose of the analysis is to determine credit worthiness of potential borrowers
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+  The purpose of the analysis is to determine credit worthiness of potential borrowers.
   The financial information used to determine this included the borrower's loan amount (loan_size), interest rate (interest_rate), income (borrower_income), debt to income ratio (debt_to_income), number of accounts open (num_of_accounts), late payments (derogatory_marks), total debt (total_debt), and loan status (loan_status). This predicts how trustworthy the borrower is and how likely they are to pay back their loan.
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-Load the data
-Prepare and organize the data into labels and features.
-Split the data to training and testing set
-Train the model
-Test the model (log resgression)
-Resample and retest the data (log resgression)
-Evaluate the model
+Using these factors, the model will predict whether a loan is healthy or if it has a high risk of defaulting. The dataset includes 75,000 healthy loans, and 2500 risky loans. The first part of the process is to load the data and split it into training groups and testing groups. 75% of the data is used to train the model, and then we can use the remaining 25% of the data to make predictions, then test whether those predictions were accurate. With this dataset, we will use Logistic Regression, then we will try it again with resampled training data.
 
 ## Results
 
