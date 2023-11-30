@@ -6,7 +6,7 @@ In this section, describe the analysis you completed for the machine learning mo
 
   The purpose of the analysis is to determine credit worthiness of potential borrowers.
   The financial information used to determine this included the borrower's loan amount (loan_size), interest rate (interest_rate), income (borrower_income), debt to income ratio (debt_to_income), number of accounts open (num_of_accounts), late payments (derogatory_marks), total debt (total_debt), and loan status (loan_status). This predicts how trustworthy the borrower is and how likely they are to pay back their loan.
-Using these factors, the model will predict whether a loan is healthy or if it has a high risk of defaulting. The dataset includes 75,000 healthy loans, and 2500 risky loans. The first part of the process is to load the data and split it into training groups and testing groups. 75% of the data is used to train the model, and then we can use the remaining 25% of the data to make predictions, then test whether those predictions were accurate. With this dataset, we will use Logistic Regression, then we will try it again with resampled training data.
+Using these factors, the model will predict whether a loan is healthy or if it has a high risk of defaulting. The dataset includes 75,000 healthy loans, and 25000 risky loans. The first part of the process is to load the data and split it into training groups and testing groups. 75% of the data is used to train the model, and then we can use the remaining 25% of the data to make predictions, then test whether those predictions were accurate. With this dataset, we will use Logistic Regression, then we will try it again with resampled training data.
 
 ## Results
 
