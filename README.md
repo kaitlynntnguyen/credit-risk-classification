@@ -16,7 +16,6 @@ This project can be split into three parts:
 3. Evaluate the model’s performance by doing the following:
 4. Generate a confusion matrix.
   
-### Write a Credit Risk Analysis Report
 
 
 
